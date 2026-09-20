@@ -15,7 +15,7 @@ if SENTRY_DSN:
     )
 
 app = FastAPI(
-    title="API Punto Tecno - Equipo 9",
+    title="API TP Despliegue - Equipo 4",
     version="1.0.0"
 )
 
@@ -33,7 +33,7 @@ app.add_middleware(
 def read_root():
     return {
         "status": "online",
-        "equipo": "Equipo N° 9",
+        "equipo": "Equipo N° 4",
         "message": "Backend FastAPI desplegado exitosamente con Sentry"
     }
 
