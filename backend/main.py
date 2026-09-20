@@ -32,9 +32,9 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {
-        "status": "online",
-        "equipo": "Equipo N° 4",
-        "message": "Backend FastAPI desplegado exitosamente con Sentry"
+        "Estado": "online",
+        "Equipo": "Equipo N° 4",
+        "Mensaje": "Backend FastAPI desplegado exitosamente con Sentry"
     }
 
 # Endpoint obligatorio para probar Sentry en la exposición en vivo
