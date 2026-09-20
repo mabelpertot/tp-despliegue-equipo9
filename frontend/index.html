@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto Tecno - Equipo 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Despliegue y Observabilidad</h1>
+        <h2>Equipo N° 9</h2>
+        
+        <p>Estado del Backend: <span id="api-status">Cargando...</span></p>
+
+        <div class="buttons">
+            <button onclick="checkBackendStatus()">Verificar Estado de API</button>
+            <button class="btn-danger" onclick="triggerError()">Provocar Error (Sentry)</button>
+        </div>
+
+        <p id="response-log" class="log-box"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
