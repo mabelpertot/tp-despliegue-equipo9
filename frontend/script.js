@@ -1,5 +1,5 @@
 // URL de Render 
-const API_URL = "https://backend-equipo4.onrender.com";
+const API_URL = "https://backend-equipo9.onrender.com";
 
 // Función para verificar que el backend responda
 async function checkBackendStatus() {
