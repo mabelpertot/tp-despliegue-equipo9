@@ -37,7 +37,7 @@ def read_root():
         "mensaje": "Backend FastAPI desplegado exitosamente con Sentry"
     }
 
-# Endpoint obligatorio para probar Sentry en la exposición en vivo
+# Endpoint obligatorio para probar Sentry 
 @app.get("/sentry-debug")
 def trigger_error():
     # Forzamos un error no controlado de división por cero
